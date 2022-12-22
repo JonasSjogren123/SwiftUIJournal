@@ -13,6 +13,9 @@
 		795B51D12954466F000BF50F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795B51D02954466F000BF50F /* Preview Assets.xcassets */; };
 		795B51DC29544670000BF50F /* SwiftUIJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B51DB29544670000BF50F /* SwiftUIJournalTests.swift */; };
 		795B51E729544670000BF50F /* SwiftUIJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B51E629544670000BF50F /* SwiftUIJournalUITests.swift */; };
+		795B51F529544739000BF50F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B51F429544739000BF50F /* JournalEntry.swift */; };
+		795B51F729544AC6000BF50F /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B51F629544AC6000BF50F /* Journal.swift */; };
+		795B51F929545520000BF50F /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B51F829545520000BF50F /* JournalEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		795B51E229544670000BF50F /* SwiftUIJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795B51E629544670000BF50F /* SwiftUIJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJournalUITests.swift; sourceTree = "<group>"; };
 		795B51E829544670000BF50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795B51F429544739000BF50F /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		795B51F629544AC6000BF50F /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		795B51F829545520000BF50F /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				795B51C92954466A000BF50F /* SwiftUIJournalApp.swift */,
 				795B51CB2954466A000BF50F /* ContentView.swift */,
+				795B51F829545520000BF50F /* JournalEntryView.swift */,
+				795B51F629544AC6000BF50F /* Journal.swift */,
+				795B51F429544739000BF50F /* JournalEntry.swift */,
 				795B51CD2954466F000BF50F /* Assets.xcassets */,
 				795B51D22954466F000BF50F /* Info.plist */,
 				795B51CF2954466F000BF50F /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795B51F529544739000BF50F /* JournalEntry.swift in Sources */,
+				795B51F929545520000BF50F /* JournalEntryView.swift in Sources */,
 				795B51CC2954466A000BF50F /* ContentView.swift in Sources */,
 				795B51CA2954466A000BF50F /* SwiftUIJournalApp.swift in Sources */,
+				795B51F729544AC6000BF50F /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

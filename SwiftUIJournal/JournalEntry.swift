@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+struct JournalEntry : Identifiable, Equatable {
+    
+    let id = UUID()
+    var content : String
+    var date : Date  = Date()
+    
+}
